@@ -17,11 +17,12 @@
 
 **3. PPP Survey_PPP Execution Example**
   - Summary: Understand how ppp hosts negotiate options and exchange their frame between themselves.
-  - Submission
+  - Submission:
     1) Explain how ppp daemon negotiate each other, using captured ppp frame. (Refer to RFC 1661 (LCP), 1662 (HDLC-PPP)). It should include analysis of the dumped frames (pppdump output)
  ---
 
 ## Assignment 2_Implementation of Simple ARP Program
+  - Summary:
     1) Learning how to use the Ethernet directly from the application layer.
     2) Understanding the Ethernet Frame, the EUI-48 MAC address, and ethernet type.
     3) Exercise the socket API of the L2 layer for the Linux operating system.
