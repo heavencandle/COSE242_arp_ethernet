@@ -32,5 +32,3 @@
     3) Send additional data to from VM1 to VM2. As VM1 has recognized VM2's MAC address from prior step, it can send data without performing ARP.  
       
     ![image](https://user-images.githubusercontent.com/62787552/109516870-0930dd80-7aec-11eb-96c7-8d16999fcb8c.png)
-
-test
