@@ -21,5 +21,14 @@
     1) Explain how ppp daemon negotiate each other, using captured ppp frame. (Refer to RFC 1661 (LCP), 1662 (HDLC-PPP)). It should include analysis of the dumped frames (pppdump output)
  ---
 
-## Assignment 2
+## Assignment 2_Implementation of Simple ARP Program![image](https://user-images.githubusercontent.com/62787552/109515695-b6a2f180-7aea-11eb-8955-02e58396d295.png)
+  - Summary: 
+    1) Learning how to use the Ethernet directly from the application layer.
+    2) Understanding the Ethernet Frame, the EUI-48 MAC address, and ethernet type.
+    3) Exercise the socket API of the L2 layer for the Linux operating system.
+ - Program Outline:
+    1) Virtual machine VM1 and VM2 is set as a wired connections. Data are sent from VM1 to VM2, and VM2 sends reply message against packet VM1 sent. (Suppose there is no VM2's prior sending)
+    2) On first sending from VM1 to VM2, now knowing MAC addres of VM2, ARP should be preceded. After getting VM2's MAC address, VM1 sends data to VM2.
+    3) Send additional data to from VM1 to VM2. As VM1 has recognized VM2's MAC address from prior step, it can send data without performing ARP.
+
 
