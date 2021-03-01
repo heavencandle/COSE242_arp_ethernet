@@ -30,6 +30,7 @@
     1) Virtual machine VM1 and VM2 is set as a wired connections. Data are sent from VM1 to VM2, and VM2 sends reply message against packet VM1 sent. (Suppose there is no VM2's prior sending)
     2) On first sending from VM1 to VM2, now knowing MAC addres of VM2, ARP should be preceded. After getting VM2's MAC address, VM1 sends data to VM2.
     3) Send additional data to from VM1 to VM2. As VM1 has recognized VM2's MAC address from prior step, it can send data without performing ARP.  
+      
     ![image](https://user-images.githubusercontent.com/62787552/109516870-0930dd80-7aec-11eb-96c7-8d16999fcb8c.png)
 
 
